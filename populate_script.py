@@ -38,7 +38,6 @@ def create_posts():
         content = faker.texts(nb_texts=3, max_nb_chars=200, ext_word_list=None)
         post = Post(title=title, content=content, author_id=author_id)
         post.save()
-        print(author_id)
 
 
 create_superuser()

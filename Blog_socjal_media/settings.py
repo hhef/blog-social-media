@@ -76,11 +76,8 @@ WSGI_APPLICATION = 'Blog_socjal_media.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blog',
-        'HOST': '127.0.0.1',
-        'USER': 'postgres',
-        'PASSWORD': 'jajecznica12',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
