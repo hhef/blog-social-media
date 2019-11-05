@@ -1,6 +1,7 @@
 """
 This script will fill data base with a superuser, 20 random users and 20 random posts. All users password will be
-'password', superuser username will be 'admin' and password will be 'password'. Run this script after migrations.
+'password', superuser username will be 'admin' and password will be 'password'. Run this script after migrations
+if you are using other database than in this project.
 """
 
 import os
