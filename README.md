@@ -18,7 +18,6 @@ things in django mainly working with generic views. All frontend was already mad
 ## Technologies
 * Python 3.7
 * Django 2.2.6
-* psycopg2-binary 2.8.3
 
 ## Setup
 Create new virtualenv and install everything from requirements.txt. If you want
