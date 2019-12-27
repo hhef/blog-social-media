@@ -1,7 +1,7 @@
 {% if is_paginated %}
     {% if page_obj.has_previous %}
         <a class="btn btn-outline-info mb-4"
-           href="?{% if request.GET.q %}q={{ request.GET.q }}{% endif %}">First</a>
+           href="?page=1{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">First</a>
         <a class="btn btn-outline-info mb-4"
            href="?page={{ page_obj.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">Previous</a>
     {% endif %}
